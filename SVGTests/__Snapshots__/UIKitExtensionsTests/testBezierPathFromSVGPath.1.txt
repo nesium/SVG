@@ -1,0 +1,4 @@
+- <UIBezierPath; <MoveTo {150, 0}>,
+ <LineTo {75, 200}>,
+ <LineTo {225, 200}>,
+ <Close>

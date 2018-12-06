@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="group">
+    <path id="rect" d="M102,64 L184,64 C188.418278,64 192,67.581722 192,72 L192,184 C192,188.418278 188.418278,192 184,192 L72,192 C67.581722,192 64,188.418278 64,184 L64,102 C84.9868205,102 102,84.9868205 102,64 Z" fill="black"/>
+    <circle id="circle" fill="black" cx="64" cy="64" r="32"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g transform="translate(50,50)">
+      <g transform="rotate(30)" stroke-width="3" stroke="lime">
+        <rect x="0" y="0" width="20" height="20" fill="blue"/>
+        <rect x="0" y="0" width="20" height="20" fill="blue" stroke="yellow" transform="translate(20,30)"/>
+      </g>
+      <rect x="0" y="0" width="20" height="20" fill="red" transform="translate(30)"/>
+    </g>
+</svg>
