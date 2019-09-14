@@ -5,6 +5,7 @@
 //  Created by Marc Bauer on 03.12.18.
 //
 
+import Foundation
 import CoreGraphics
 
 extension CGPath {

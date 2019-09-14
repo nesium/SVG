@@ -242,8 +242,8 @@
 		2C2FCAC121B55F9600EB2A9A = {
 			isa = PBXGroup;
 			children = (
-				2C2FCACD21B55F9600EB2A9A /* SVG */,
-				2C2FCAD821B55F9600EB2A9A /* SVGTests */,
+				2C2FCACD21B55F9600EB2A9A /* Sources */,
+				2C2FCAD821B55F9600EB2A9A /* Tests */,
 				2C2FCACC21B55F9600EB2A9A /* Products */,
 				2C2FCB0A21B560A600EB2A9A /* Frameworks */,
 			);
@@ -258,101 +258,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C2FCACD21B55F9600EB2A9A /* SVG */ = {
+		2C2FCACD21B55F9600EB2A9A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2CA63066232D0CD80057E681 /* SVG */,
 				2C2FCACE21B55F9600EB2A9A /* SVG.h */,
 				2C2FCACF21B55F9600EB2A9A /* Info.plist */,
-				2C2FCAE521B5605500EB2A9A /* Sources */,
-			);
-			path = SVG;
-			sourceTree = "<group>";
-		};
-		2C2FCAD821B55F9600EB2A9A /* SVGTests */ = {
-			isa = PBXGroup;
-			children = (
-				2C2FCB0D21B560D400EB2A9A /* SVGTests-Bridging-Header.h */,
-				2C2FCADB21B55F9600EB2A9A /* Info.plist */,
-				2C2FCB3621B630B400EB2A9A /* ColorParsingTests.swift */,
-				2C2FCBB521B6B90200EB2A9A /* ContentModeTests.swift */,
-				2C2FCB2121B56D8C00EB2A9A /* GraphicElementTests.swift */,
-				2CE3E19521B7E61D00B78A66 /* ImageRendererTests.swift */,
-				2C2FCB5D21B66C0A00EB2A9A /* MDNTransformTests.swift */,
-				2C2FCBBC21B79FA000EB2A9A /* PerformanceTests.swift */,
-				2C2FCBBE21B79FD800EB2A9A /* TestHelpers.swift */,
-				2C2FCB7D21B6859B00EB2A9A /* TransformParsingTests.swift */,
-				2CE3E19D21B91C3200B78A66 /* UIKitExtensionsTests.swift */,
-				2C2FCBAF21B6AD8200EB2A9A /* W3CoordTransTests.swift */,
-				2C2FCB9921B69D8F00EB2A9A /* W3PathsTests.swift */,
-				2C2FCB3821B63FBF00EB2A9A /* W3ShapeTests.swift */,
-				2C2FCB2221B56D8C00EB2A9A /* Fixtures */,
-			);
-			path = SVGTests;
-			sourceTree = "<group>";
-		};
-		2C2FCAE521B5605500EB2A9A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				2C2FCAF821B5605500EB2A9A /* Parser.swift */,
-				2C2FCAEE21B5605500EB2A9A /* Extensions */,
-				2C2FCAE921B5605500EB2A9A /* Libraries */,
-				2C2FCAE621B5605500EB2A9A /* Renderers */,
-				2C2FCAF521B5605500EB2A9A /* Style */,
-				2C2FCAEB21B5605500EB2A9A /* Utils */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		2C2FCAE621B5605500EB2A9A /* Renderers */ = {
+		2C2FCAD821B55F9600EB2A9A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2C2FCAE821B5605500EB2A9A /* Renderer.swift */,
-				2C2FCAE721B5605500EB2A9A /* ImageRenderer.swift */,
+				2CA63067232D0CF60057E681 /* SVGTests */,
 			);
-			path = Renderers;
-			sourceTree = "<group>";
-		};
-		2C2FCAE921B5605500EB2A9A /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				2C2FCAEA21B5605500EB2A9A /* Scanner+Swift.swift */,
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
-		2C2FCAEB21B5605500EB2A9A /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				2C2FCBB321B6B7D500EB2A9A /* ContentMode.swift */,
-				2C2FCAEC21B5605500EB2A9A /* drawElement.swift */,
-				2C2FCAED21B5605500EB2A9A /* ZipOptional.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		2C2FCAEE21B5605500EB2A9A /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				2C2FCAF221B5605500EB2A9A /* CGAffineTransform+SVG.swift */,
-				2C2FCAF321B5605500EB2A9A /* CGColor+SVG.swift */,
-				2C2FCAF021B5605500EB2A9A /* CGFloat+SVG.swift */,
-				2C2FCB2E21B5851A00EB2A9A /* CGMutablePath+SVG.swift */,
-				2C2FCAEF21B5605500EB2A9A /* CGPath+SVG.swift */,
-				2C2FCB2821B5735700EB2A9A /* CGPoint+SVG.swift */,
-				2C2FCB5B21B65EEE00EB2A9A /* Scanner+SVG.swift */,
-				2C2FCBC221B7D95600EB2A9A /* UIKit+SVG.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		2C2FCAF521B5605500EB2A9A /* Style */ = {
-			isa = PBXGroup;
-			children = (
-				2CE3E19921B8DF3100B78A66 /* ElementType.swift */,
-				2C2FCAF721B5605500EB2A9A /* Style.swift */,
-				2C2FCAF621B5605500EB2A9A /* StyleStack.swift */,
-			);
-			path = Style;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		2C2FCB0A21B560A600EB2A9A /* Frameworks */ = {
@@ -440,6 +361,53 @@
 				2C2FCB6621B6701100EB2A9A /* transform_skewy.svg */,
 			);
 			path = mdn;
+			sourceTree = "<group>";
+		};
+		2CA63066232D0CD80057E681 /* SVG */ = {
+			isa = PBXGroup;
+			children = (
+				2C2FCAF221B5605500EB2A9A /* CGAffineTransform+SVG.swift */,
+				2C2FCAF321B5605500EB2A9A /* CGColor+SVG.swift */,
+				2C2FCAF021B5605500EB2A9A /* CGFloat+SVG.swift */,
+				2C2FCB2E21B5851A00EB2A9A /* CGMutablePath+SVG.swift */,
+				2C2FCAEF21B5605500EB2A9A /* CGPath+SVG.swift */,
+				2C2FCB2821B5735700EB2A9A /* CGPoint+SVG.swift */,
+				2C2FCBB321B6B7D500EB2A9A /* ContentMode.swift */,
+				2C2FCAEC21B5605500EB2A9A /* drawElement.swift */,
+				2CE3E19921B8DF3100B78A66 /* ElementType.swift */,
+				2C2FCAE721B5605500EB2A9A /* ImageRenderer.swift */,
+				2C2FCAF821B5605500EB2A9A /* Parser.swift */,
+				2C2FCAE821B5605500EB2A9A /* Renderer.swift */,
+				2C2FCB5B21B65EEE00EB2A9A /* Scanner+SVG.swift */,
+				2C2FCAEA21B5605500EB2A9A /* Scanner+Swift.swift */,
+				2C2FCAF721B5605500EB2A9A /* Style.swift */,
+				2C2FCAF621B5605500EB2A9A /* StyleStack.swift */,
+				2C2FCBC221B7D95600EB2A9A /* UIKit+SVG.swift */,
+				2C2FCAED21B5605500EB2A9A /* ZipOptional.swift */,
+			);
+			path = SVG;
+			sourceTree = "<group>";
+		};
+		2CA63067232D0CF60057E681 /* SVGTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C2FCB0D21B560D400EB2A9A /* SVGTests-Bridging-Header.h */,
+				2C2FCADB21B55F9600EB2A9A /* Info.plist */,
+				2C2FCB3621B630B400EB2A9A /* ColorParsingTests.swift */,
+				2C2FCBB521B6B90200EB2A9A /* ContentModeTests.swift */,
+				2C2FCB2121B56D8C00EB2A9A /* GraphicElementTests.swift */,
+				2CE3E19521B7E61D00B78A66 /* ImageRendererTests.swift */,
+				2C2FCB5D21B66C0A00EB2A9A /* MDNTransformTests.swift */,
+				2C2FCBBC21B79FA000EB2A9A /* PerformanceTests.swift */,
+				2C2FCBBE21B79FD800EB2A9A /* TestHelpers.swift */,
+				2C2FCB7D21B6859B00EB2A9A /* TransformParsingTests.swift */,
+				2CE3E19D21B91C3200B78A66 /* UIKitExtensionsTests.swift */,
+				2C2FCBAF21B6AD8200EB2A9A /* W3CoordTransTests.swift */,
+				2C2FCB9921B69D8F00EB2A9A /* W3PathsTests.swift */,
+				2C2FCB3821B63FBF00EB2A9A /* W3ShapeTests.swift */,
+				2C2FCB2221B56D8C00EB2A9A /* Fixtures */,
+			);
+			path = SVGTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -794,7 +762,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SVG/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -820,7 +788,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SVG/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -846,7 +814,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = SVGTests/Info.plist;
+				INFOPLIST_FILE = Tests/SVGTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -854,7 +822,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nesium.SVGTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SVGTests/SVGTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/SVGTests/SVGTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -872,7 +840,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = SVGTests/Info.plist;
+				INFOPLIST_FILE = Tests/SVGTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -880,7 +848,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nesium.SVGTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SVGTests/SVGTests-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/SVGTests/SVGTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

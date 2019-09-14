@@ -7,6 +7,7 @@
 //
 
 import CoreGraphics
+import Foundation
 
 struct CurveHistory {
   var controlPoint: CGPoint = .zero

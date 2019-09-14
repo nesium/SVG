@@ -7,6 +7,7 @@
 //
 
 import CoreGraphics
+import Foundation
 
 extension Scanner {
   static func svg_scanner(string: String) -> Scanner {
