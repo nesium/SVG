@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.author               = "Marc Bauer"
   spec.platform             = :ios, "10.0"
   spec.source               = { :git => "https://github.com/nesium/SVG.git", :tag => "#{spec.version}" }
-  spec.source_files         = "Sources/SVG/*.swift"
-  spec.public_header_files  = "Sources/SVG/SVG.h"
+  spec.source_files         = "Sources/**/*.{swift,h}"
+  spec.public_header_files  = "Sources/SVG.h"
   spec.swift_version        = "5.1"
 end
